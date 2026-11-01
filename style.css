@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8ef;
+    color: #402719;
+}
+
+header {
+    background: #492719;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #f4d5b7;
+}
+
+nav {
+    background: #a45d35;
+    padding: 17px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe0a8;
+}
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(
+        120deg, #f3d5b7, #e7b88e
+    );
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+button {
+    background: #713b24;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+}
+
+button:hover {
+    background: #a45e35;
+    transform: scale(1.04);
+}
+
+.food-card {
+    display: inline-block;
+    background: white;
+    padding: 25px 15px;
+    margin: 12px;
+    border-radius: 12px;
+    width: 210px;
+    box-shadow: 0 4px 12px #d9c5b5;
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+}
+
+.food-card h3 {
+    margin-bottom: 12px;
+}
+
+.food-card p {
+    color: #a45d35;
+    font-weight: bold;
+}
+
+input {
+    padding: 13px;
+    width: 260px;
+    border: 1px solid #b99b83;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+#cart {
+    background: white;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#cart p {
+    padding: 8px;
+}
+
+#bill {
+    background: white;
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #ddd;
+    line-height: 2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media(max-width:600px) {
+    nav a {
+        margin: 0 7px;
+        font-size: 13px;
+    }
+
+    .hero h2 {
+        font-size: 27px;
+    }
+
+    .food-card {
+        width: 90%;
+    }
+}
